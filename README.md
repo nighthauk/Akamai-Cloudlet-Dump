@@ -10,8 +10,7 @@ This is a simple bash script to automate the dump of cloudlet policies from Akam
 In order to use this, you need to:
 * Install the Akamai CLI with the Cloudlets module.
 * Set up your credential files as described in the [authorization](https://developer.akamai.com/introduction/Prov_Creds.html) and [credentials](https://developer.akamai.com/introduction/Conf_Client.html) sections of the getting started guide on developer.akamai.com.  
-* When working through this process you need to give your API credential the "Cloudlets Policy Manager" grant.  The section in your configuration file should be called 'cloudlets'.
-* You may also use the --section <name> to use the specific section credentials from your .edgerc file
+* When working through this process you need to give your API credential the "Cloudlets Policy Manager" grant.  This script assumes that the --section <name> being used is 'default' within your .edgerc file. Will likely update to make this dynamic as time permits.
 
 ## Cloudlet Types
 Here is the list of cloudlets and cloudlet type codes. 
