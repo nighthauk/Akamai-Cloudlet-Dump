@@ -3,8 +3,10 @@
 This is a simple bash script to automate the dump of cloudlet policies from Akamai using the [Cloudlets CLI](https://github.com/akamai/cli-cloudlets/). First, the script will dump the full list of policies in csv format, which will then serve as our list to execute individual request to grab each policy and write to its respective json file.
 
 ## Requirements
-* Python 3+
-* pip install edgegrid-python
+* Akamai CLI installed
+* Akamai Cloudlets CLI module installed
+* Edgegrid credentials provisioned with necessary grant
+* This has only been tested on MacOS
 
 ## Credentials
 In order to use this, you need to:
